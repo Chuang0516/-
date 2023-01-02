@@ -26,6 +26,7 @@ export default {
             handler() {
                 this.$nextTick(() => {
                     new Swiper(this.$refs.mySwiper, {
+                        autoplay: true,
                         loop: true,
                         navigation: {
                             nextEl: ".swiper-button-next",
